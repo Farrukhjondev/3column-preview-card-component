@@ -27,34 +27,122 @@ html {
 }
 
 /* MAIN */
-.body {
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 48px 60px;
+  margin: 0;
+  font-family: var(--body-text-font);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  background-color: var(--body-bg);
+  color: var(--body-text-color);
 
 }
  /* BUTTON */
+ .button {
+  width: 146px;
+  height: 48px;
+  padding: 12px;
+  border-radius: 25px;
+
+ }
+ .button:hover {
+  border: 2px solid ;
+  cursor: pointer;
+  color: var(--body-bg);
+ } 
+ .button:link {
+  text-decoration: none;
+ }
+
 
 /* ATTRIBUTION */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 .header {
+  display: none;
 }
+
 .preview-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+  margin: 0;
+  width: 920px;
+  height: 500px;
 }
+
 .preview-card--first {
+  display: block;
+  background-color: var(--primary);
+  border-radius: 8px 0px 0px 8px;
 }
-.preview-card__icon {
-}
-.preview-card__title {
-}
-.preview-card__text {
-}
-.button {
-}
-.button__text {
-}
+
 .preview-card--second {
+  display: block;
+  background-color: var(--secondary);
 }
+
 .preview-card--thrid {
+  display: block;
+  background-color: var(--secandary-dark);
+  border-radius: 0px 8px 8px 0px;
 }
+
+.preview-card__icon {
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.preview-card__title {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-family: var(--title-text-font);
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+
+.preview-card__text {
+  width: 212px ;
+  margin-top: 0;
+  margin-bottom: 83px;
+}
+
+.button__text {
+  padding: 12px;
+  color: var(--primary);
+}
+
+/* ATTRIBUTION */
 .attribution {
+  .attribution-container {
+    margin-top: 30px;
+  }
+  
+  a.attribution:link {
+    color: var(--primary)
+  }
+  
+  a.attribution:visited {
+    color: purple;
+  }
+  
+  a.attribution:hover {
+    color: var(--secandary-dark);
+  }
+  
+  a.attribution:active {
+    color: blue;
+  }
 }

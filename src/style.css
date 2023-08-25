@@ -25,6 +25,8 @@ html {
 *::after {
   box-sizing: border-box;
 }
+/* DEVICE TYPE */
+
 
 /* MAIN */
 body {
@@ -33,9 +35,9 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: 100vh;
-  padding: 48px 60px;
+  min-width: 375px;
   margin: 0;
+  padding: 88px 24px;
   font-family: var(--body-text-font);
   font-weight: 400;
   font-size: 15px;
@@ -48,7 +50,7 @@ body {
  .button {
   width: 146px;
   height: 48px;
-  padding: 12px;
+  /* padding: 12px 32px; */
   border-radius: 25px;
   background-color: var(--body-bg);
 
@@ -75,39 +77,38 @@ body {
   color: var(--secandary-dark);
 }
 
-/* ATTRIBUTION */
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
 .header {
   display: none;
 }
 
 .preview-card {
-  display: flex;
+  display: block;
   justify-content: center;
-  align-items: center;
+  align-items: auto;
   padding: 48px;
   margin: 0;
-  width: 920px;
-  height: 500px;
+  width: 100%;
+  min-width: 327px;
 }
 
 .preview-card--first {
-  display: block;
+  display: flex;
+  flex-direction: column;
   background-color: var(--primary);
-  border-radius: 8px 0px 0px 8px;
+  border-radius: 8px 8px 0px 0px;
 }
 
 .preview-card--second {
-  display: block;
+  display: flex;
+  flex-direction: column;
   background-color: var(--secondary);
 }
 
 .preview-card--thrid {
-  display: block;
+  display: flex;
+  flex-direction: column;
   background-color: var(--secandary-dark);
-  border-radius: 0px 8px 8px 0px;
+  border-radius: 0px 0px 8px 8px;
 }
 
 .preview-card__icon {
@@ -127,9 +128,11 @@ body {
 }
 
 .preview-card__text {
-  width: 212px ;
-  margin-top: 0;
+  /* width: 100% ;
+  align-items: center; */
+  margin-top: 0px;
   margin-bottom: 83px;
+  
 }
 
 

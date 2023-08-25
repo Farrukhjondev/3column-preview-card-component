@@ -5,16 +5,29 @@
   --title-text-font: 'Big Shoulders Display', cursive;
 
   /* COLORS */
-  --body-bg,--body-text-color: #F2F2F2;
+  --body-text-color: #F2F2F2;
+  --body-bg: #F2F2F2;
   --primary: #E28625;
   --secondary: #006971;
   --secandary-dark: #004140;
 
 }
-  
- 
- /* MAIN */
+/* GLOBAL */
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
+/* MAIN */
+.body {
+
+}
  /* BUTTON */
 
 /* ATTRIBUTION */

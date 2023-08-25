@@ -50,17 +50,30 @@ body {
   height: 48px;
   padding: 12px;
   border-radius: 25px;
+  background-color: var(--body-bg);
 
  }
  .button:hover {
-  border: 2px solid ;
+  border: 2px solid white;
   cursor: pointer;
+  background-color: transparent;
   color: var(--body-bg);
  } 
  .button:link {
   text-decoration: none;
  }
-
+ .button-first {
+  padding: 12px;
+  color: var(--primary);
+}
+.button-second {
+  padding: 12px;
+  color: var(--secondary);
+}
+.button-thrid {
+  padding: 12px;
+  color: var(--secandary-dark);
+}
 
 /* ATTRIBUTION */
 .attribution { font-size: 11px; text-align: center; }
@@ -119,10 +132,6 @@ body {
   margin-bottom: 83px;
 }
 
-.button__text {
-  padding: 12px;
-  color: var(--primary);
-}
 
 /* ATTRIBUTION */
 .attribution {

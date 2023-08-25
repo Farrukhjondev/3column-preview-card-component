@@ -1,4 +1,45 @@
+/* CUSTOM PROPS */
+:root {
+  /* FONTS */
+  --body-text-font: 'Lexend Deca', sans-serif;  
+  --title-text-font: 'Big Shoulders Display', cursive;
 
+  /* COLORS */
+  --body-bg,--body-text-color: #F2F2F2;
+  --primary: #E28625;
+  --secondary: #006971;
+  --secandary-dark: #004140;
+
+}
+  
+ 
+ /* MAIN */
+
+ /* BUTTON */
+
+/* ATTRIBUTION */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-    
+
+.header {
+}
+.preview-card {
+}
+.preview-card--first {
+}
+.preview-card__icon {
+}
+.preview-card__title {
+}
+.preview-card__text {
+}
+.button {
+}
+.button__text {
+}
+.preview-card--second {
+}
+.preview-card--thrid {
+}
+.attribution {
+}
